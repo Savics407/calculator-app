@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <title>Awesome Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c49ba4391f.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="cal-inputs">
+        <div class="input">
+          <span>0</span>
+        </div>
+        <div class="cal-buttons">
+          <div class="numbers">
+            <button type="button" class="button clear" data-action="clear">
+              <!-- <i class="fa-solid fa-c"></i> -->
+            C</button>
+            <button type="button" class="button specialChar">(</button>
+            <button type="button" class="button specialChar">)</button>
+            <button type="button" data-action="multiply" class="button operbtn"> x
+              <!-- <i class="fa-solid fa-xmark"></i> -->
+            </button> 
+<!-- =========== Multiply Key =============== -->
+            <button type="button" class="button specialChar" data-action="square-root"><b>&radic;</b></button>
+            <button type="button" class="button specialChar" data-action="percentage">%</button>
+            <button type="button" class="button specialChar" data-action="plus-minus"><i class="fa-solid fa-plus-minus"></i></button>
+            <button type="button" data-action="divide" class="button operbtn">
+              <!-- <i class="fa-solid fa-divide"></i> -->
+            /</button>
+<!-- =========== Divide Key ================== -->
+            <button type="button" class="button numberBg">7</button>
+            <button type="button" class="button numberBg">8</button>
+            <button type="button" class="button numberBg">9</button>
+              <button type="button" data-action="subtract" class="button operbtn">
+                <!-- <i class="fa-solid fa-minus"></i> -->
+              -</button>
+<!-- =========== Subtract Key ============ -->
+            <button type="button" class="button numberBg">4</button>
+            <button type="button" class="button numberBg">5</button>
+            <button type="button" class="button numberBg">6</button>
+              <button type="button" data-action="add" class="button operbtn">
+                <!-- <i class="fa-solid fa-plus"></i> -->
+              +</button>
+<!-- =========== Plus Key =================-->
+            <button type="button" class="button numberBg">1</button>
+            <button type="button" class="button numberBg">2</button>
+            <button type="button" class="button numberBg">3</button>
+              <button type="button" data-action="calculate" class="button equalto">
+                <!-- <i class="fa-solid fa-equals"></i> -->
+              =</button>
+<!-- =========== Calculate Key ===============-->
+            <button type="button" class="button numberBg" data-action="decimal">.</button>
+            <button type="button" class="button numberBg">0</button>
+            <button type="button" class="button back"><i class="fa-solid fa-delete-left"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script src="script.js" charset="utf-8"></script> -->
+    <script src="calc.js"></script>
+
+  </body>
+</html>
