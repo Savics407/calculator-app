@@ -135,13 +135,13 @@ i .fa {
   border-radius: 20px;
   background-color: var(--equals);
 }
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .calculator {
     width: 100vw;
     height: 100vh;
     margin: auto;
   }
-}
+} */
 /* @media screen and (min-width: 600px) and (max-width: 768px) {
   .calculator {
     width: 80vw;
