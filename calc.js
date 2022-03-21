@@ -15,7 +15,7 @@ const calculate = () => {
     if(symbol === '-') result = firstValue - secondValue
     if(symbol === 'x') result = firstValue * secondValue
     if(symbol === '/') result = firstValue / secondValue
-    if(symbol === '%') result = firstValue % secondValue
+    if(symbol === '%') result = firstValue / 100
 
     display.innerText = result
     firstValue = result
@@ -43,6 +43,12 @@ for (let button of controlButtons) {
         display.innerText += btnValue;
     })
 }
+
+    const notFunctional = document.querySelectorAll('nothing')
+    squareRoot.addEventListener('click', () => {
+    alert('Not Functional Yet!')
+    })
+
 
 /*
  * ASSIGNMENT  
