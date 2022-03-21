@@ -137,7 +137,7 @@ i .fa {
 }
 @media screen and (max-width: 480px) {
   .calculator {
-    margin: 0 auto;
+    margin: 1.5em auto;
   }
 }
 /* @media screen and (min-width: 600px) and (max-width: 768px) {
